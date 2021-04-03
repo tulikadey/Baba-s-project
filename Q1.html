@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title>Quiz Page1</title>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="quiz_style.css"> 
+<!------ Include the above in your HEAD tag ---------->
+<style>
+	.img11:hover {
+	  animation: shake 0.5s;
+	  animation-iteration-count: infinite;
+	}
+	
+	@keyframes shake {
+	  0% { transform: translate(1px, 1px) rotate(0deg); }
+	  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	  20% { transform: translate(-3px, 0px) rotate(1deg); }
+	  30% { transform: translate(3px, 2px) rotate(0deg); }
+	  40% { transform: translate(1px, -1px) rotate(1deg); }
+	  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	  60% { transform: translate(-3px, 1px) rotate(0deg); }
+	  70% { transform: translate(3px, 1px) rotate(-1deg); }
+	  80% { transform: translate(-1px, -1px) rotate(1deg); }
+	  90% { transform: translate(1px, 2px) rotate(0deg); }
+	  100% { transform: translate(1px, -2px) rotate(-1deg); }
+	}
+	</style>
+</head>
+<script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
+<!-- This is a very simple parallax effect achieved by simple CSS 3 multiple backgrounds, made by http://twitter.com/msurguy -->
+<body>
+	
+  <img src="Quiz-Backgrounda.jpg" class="med_class">
+  <img src="AllPages.jpeg" class="box">
+  <img src="2page.jpeg" class="page">
+  
+
+ 
+
+<div class="container">
+	<form >
+		<p>Thailand announced that it has proceeded to test its novel coronavirus vaccine on which animal/bird?</p>
+		<input type="radio" id="monkeys" name="Q1" value="monkeys">
+		<label for="monkeys">Monkeys</label><br>
+		<input type="radio" id="lizards" name="Q1" value="lizards">
+		<label for="lizards">Lizards</label><br>
+		<input type="radio" id="hens" name="Q1" value="hens">
+		<label for="hens">Hens</label><br>
+		<input type="radio" id="kites" name="Q1" value="kites">
+		<label for="kites">Kites</label>
+		<br>  	
+	  </form>
+	  <div style="text-align: center; padding-top: 20px;">
+		<button  onclick="next();" >Next</button>
+	<button onclick="Previous();" >Previous</button> 
+	</div>
+</div>
+<div>
+	
+</div>
+<section style="margin-top: 10px; margin-left: 50px; ">
+        
+	<column style="margin-right:50px;">
+		<img class="img11" src="home.png" onclick="home();" style="height: 100px; width: 100px; ">
+	</column>
+	<column style="margin-right:50px;">
+		<img class="img11" src="audi .png" onclick="audi();" style="height: 100px; width: 100px;">
+	</column>
+	<column style="margin-right:50px;">
+		<img class="img11"src="booth.png" onclick="booth();"style="height: 100px; width: 100px;">
+	</column>
+	<column style="margin-right:50px;">
+		<img class="img11"src="abstract.png" onclick="abstract();" style="height: 100px; width: 100px;">
+	</column>
+	<column style="margin-right:50px;">
+		<img class="img11"src="agenda.png" onclick="agenda();" style="height: 100px; width: 100px;">
+	</column>
+	
+	<column style="margin-right:50px;">
+		<img class="img11"src="logout.png" onclick="logout();" style="height: 100px; width: 100px;">
+	</column>
+</section>
+
+
+<script src="quiz_page1.js"></script>
+</body>
+</html>

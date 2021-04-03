@@ -1,0 +1,57 @@
+body{
+    background-image: url("Audi.jpg") ;
+    height:10%;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    overflow: hidden; /* Hide scrollbars */
+    
+    
+    background-position-x: center;
+
+}
+.img11{
+  margin-top: 340px;
+  margin-left: -650px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  
+}
+.img12{
+   margin-top: 240px;
+   margin-right: 100px;
+   margin-bottom: 0%;
+ }
+ .img13{
+  margin-top: 380px;
+  margin-right: 100px;
+  margin-bottom: 10%;
+   
+ }
+ .img14{
+  margin-top: 240px;
+  margin-right: 100px;
+  margin-bottom: 0%;;
+   
+ }
+ .img15{
+  margin-top: 240px;
+  margin-right: 100px;
+  margin-bottom: 0%;
+   
+ }
+ .img16{
+  margin-top: 240px;
+  margin-right: 100px;
+  margin-bottom: 0%;
+  
+   
+ }
+
+ .videos2{
+   margin-top: 190;
+   margin-left: 200;
+   width: 40%;
+   height: 500%;
+   /* margin-top: 1px; */
+   margin-bottom: 10px;
+}

@@ -1,0 +1,78 @@
+<html>
+    <head>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="quiz.css"> 
+</head>
+    <body>
+        <img src="Quiz-Backgrounda.jpg" class="med_class">
+        <img src="AllPages.jpeg" class="box">
+        <img src="quiz.hmtl.jpeg" class="bos">
+      
+      <div class="container">
+          <div class="row vertical-offset-100">
+              <div class="col-md-4 col-md-offset-4">
+                  <div class="panel panel-default">
+                        <div class="panel-heading">
+                          
+                       </div>
+                        <div class="panel-body">
+                          <form accept-charset="UTF-8" role="form">
+                         
+                              <h3 class="panel-title">Welcome to GENOTREX QUIZ</h3>
+                              <div class="form-group">
+                                <br>
+                                    <h2 class="name">Name</h2>
+                                  <input class="form-control" placeholder="Name" id="name" type="text">
+                              </div>
+                                <div class="form-group">
+                                    <h2 class="email">Email</h2>
+                                  <input class="form-control" placeholder="E-mail" name="email" type="text">
+                              </div>
+                              <div class="form-group">
+                                  <h3 class="phone">Phone</h3>
+                                  <input class="form-control" placeholder="Phone"  >
+                              </div>
+                              <br>
+                  
+                          
+                            </form>
+                            
+                      </div>
+                      <button  id="next"onclick="next();">Next</button>
+                  </div>
+              </div>
+      
+      </div>
+          </div>
+          
+          <section style="margin-top: -10px; margin-left: 600px; ">
+              
+              <column style="margin-right:10px;margin-left: -500;">
+                  <img class="img11" src="home.png" onclick="home();" style="height: 100px; width: 100px; ">
+              </column>
+              <column style="margin-right:10px;">
+                  <img class="img11" src="audi .png" onclick="audi();" style="height: 100px; width: 100px;">
+              </column>
+              <column style="margin-right:10px;">
+                  <img class="img11"src="booth.png" onclick="booth();"style="height: 100px; width: 100px;">
+              </column>
+              <column style="margin-right:10px;">
+                  <img class="img11"src="abstract.png" onclick="abstract();" style="height: 100px; width: 100px;">
+              </column>
+              <column style="margin-right:10px;">
+                  <img class="img11"src="agenda.png" onclick="agenda();" style="height: 100px; width: 100px;">
+              </column>
+              
+              <column style="margin-right:10px;">
+                  <img class="img11"src="logout.png" onclick="logout();" style="height: 100px; width: 100px;">
+              </column>
+          </section>
+</body>
+<script src="main1.js"></script>
+</html>

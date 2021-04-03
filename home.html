@@ -1,0 +1,73 @@
+
+<html>
+    <head>
+        <title>
+            Main lobby
+        </title>
+
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="home.css"> 
+        
+<style>
+.image11:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
+    </head>
+    <body >
+     
+        <div>
+        <img src="home_bottons.png" class="blakk" onclick="audi1();">
+        
+        <img src="home_bottons.png" class="black"onclick="booth1();">
+      </div>
+     
+            
+     
+          
+      <section style="margin-top: 120px; margin-left: 100px; ">
+        
+   
+        <column style="margin-right:100px;">
+          <img src="audi .png" onclick="audi();"class="image11" style="height: 100px; width: 100px;">
+        </column>
+        <column style="margin-right:100px;">
+          <img src="booth.png" onclick="booth();"class="image11" style="height: 100px; width: 100px;">
+        </column>
+        <column style="margin-right:100px;">
+          <img src="abstract.png" onclick="abstract();"class="image11"  style="height: 100px; width: 100px;">
+        </column>
+        <column style="margin-right:100px;">
+          <img src="agenda.png" onclick="agenda();" class="image11" style="height: 100px; width: 100px;">
+        </column>
+        <column style="margin-right:100px;">
+          <img src="quiz.png" onclick="quiz();"class="image11"  style="height: 100px; width: 100px; ">
+        </column>
+        
+        <column style="margin-right:100px;">
+          <img src="logout.png" onclick="logout();"class="image11"  style="height: 100px; width: 100px;">
+        </column>
+      </section>
+
+      
+    
+    
+    <script src="home.js"></script>
+    </body>
+</html>

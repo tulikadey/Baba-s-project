@@ -1,0 +1,29 @@
+body{
+    background-image: url("Abstract-Empty-Lobby.jpg") ;
+    
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 800px;
+    overflow: hidden; /* Hide scrollbars */
+    background-position-x: center;
+}
+.paper1{
+  position: relative;
+  margin-top: 300px;
+  margin-bottom: -200px;
+  margin-left:600px ;
+  margin-right:600px; }
+
+  .paper2{
+    margin-top: 50px;
+    margin-bottom: -50px;
+    margin-left:430px ;
+    margin-right:600px;
+}
+.paper3{
+    position: relative;
+    margin-top: -100px;
+    margin-bottom:1050px;
+    margin-left:270px ;
+    margin-right:300px;
+}

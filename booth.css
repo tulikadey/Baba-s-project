@@ -1,0 +1,15 @@
+body{
+    background-image: url("Booth-Lobby-v2.jpg") ;
+    height:100%;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    
+    
+    background-position-x: center;
+}
+
+.img11{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}

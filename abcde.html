@@ -1,0 +1,127 @@
+
+<html>
+    <head>
+        <title>
+            Audi
+        </title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="C81style.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+
+
+
+</style>
+    </head>
+    <body >
+        
+      <style>
+        .messagebox{
+         background-color: pink;
+          margin-top: 10px;
+          color:black;
+          width: 50%;
+          border-radius: 10px;
+          text-align:center;
+          
+          
+     }
+     
+     #output
+     {
+         padding: 10px;
+          width:20%;
+          background:pink;
+          border-radius: 15px;
+          position: fixed;
+          left: 1000px;
+          top:200px;
+     /* give a fixed height and overflow */
+          height:350px;
+         overflow:auto;
+          
+     }
+     .inputbox{
+         position: fixed;
+     bottom: 135px;
+     width: 20%;
+     left: 1000px;
+     background-color: black;
+     color: white;
+     }
+     </style>
+         <body>
+           <div id="output"  >
+            
+        </div>
+     
+     
+         
+         
+      <center>
+          <div class="inputbox">
+             <input type="text"  class="form-control" id="message" placeholder="Type Here">
+             <button class="btn btn-success" onclick="send();">Send</button>
+          </div>
+      </center>
+        <section class="videos">
+          <span >
+            <iframe class="videos2" width="1536" height="754" src="https://www.youtube.com/embed/JkFw5eWWDfg" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           
+          </span>
+        <span id="span">
+          
+            <img id="img1" src="home.png"alt="home" width=100px
+            height=100px class="img11"class="img21"onclick="home();">
+    
+           <img id="img2" src="booth.png"width=100px
+            height=100px class="img12"class="img21" onclick="booth();">
+    
+            <img id="img3" src="agenda.png"width=100px
+            height=100px  onclick="agenda();"class="img13"class="img21">
+    
+            <img id="img4" src="abstract.png"width=100px
+            height=100px class="img14" class="img21"onclick="abstract();">
+    
+            <img id="img5" src="quiz.png"width=100px
+            height=100px class="img15"class="img21" onclick="quiz();">
+    
+              <img id="img6" src="logout.png"width=100px
+              height=100px class="img16"class="img21"onclick="logout();">
+         
+      </span>
+      
+    
+   
+    <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<html>
+<head>
+	<title>Booth</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="booth.css"> 
+<!------ Include the above in your HEAD tag ---------->
+<style>
+	.img11:hover {
+	  animation: shake 0.5s;
+	  animation-iteration-count: infinite;
+	}
+	
+	@keyframes shake {
+	  0% { transform: translate(1px, 1px) rotate(0deg); }
+	  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	  20% { transform: translate(-3px, 0px) rotate(1deg); }
+	  30% { transform: translate(3px, 2px) rotate(0deg); }
+	  40% { transform: translate(1px, -1px) rotate(1deg); }
+	  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	  60% { transform: translate(-3px, 1px) rotate(0deg); }
+	  70% { transform: translate(3px, 1px) rotate(-1deg); }
+	  80% { transform: translate(-1px, -1px) rotate(1deg); }
+	  90% { transform: translate(1px, 2px) rotate(0deg); }
+	  100% { transform: translate(1px, -2px) rotate(-1deg); }
+	}
+	</style>
+</head>
+<script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
+<!-- This is a very simple parallax effect achieved by simple CSS 3 multiple backgrounds, made by http://twitter.com/msurguy -->
+<body>
+	
+ 
+  
+
+
+
+<section>
+	<column>
+	   <img src="Booth-Image-V2.png" style="margin-top: 230px; margin-left: 250px;">
+   </column>
+   <column>
+	   <img src="Booth-Image-V2.png" style="margin-left: 50px;">
+   </column>
+   
+</section>
+
+   <section style="margin-top: -120px; margin-left: 200px;margin-right: 300px;">
+
+
+   <column >
+		<img src="Booth-Image-V2.png" style="margin-top: 0px; margin-left: 150px;">
+	</column>
+	<column>
+		<img src="Booth-Image-V2.png" style="margin-left: 100px; ">
+	</column>
+
+</section>
+<section style="margin-top: -120px; margin-left: 30px;">
+	<column>
+	   <img src="Booth-Image-V2.png" style="margin-top: 0px; margin-left: 450px;">
+   </column>
+   <column>
+	   <img src="Booth-Image-V2.png" style="margin-left: 150px;">
+   </column>
+   
+</section>
+</section>
+
+<section style="margin-top: -120px; margin-left: 450px;margin-right: 100px;">
+
+
+<column >
+	 <img src="Booth-Image-V2.png" style="margin-top: 0px; margin-left: 150px;">
+ </column>
+ <column>
+	 <img src="Booth-Image-V2.png" style="margin-left: 150px; ">
+ </column>
+
+</section>
+
+<section style="margin-top: -10px; margin-left: 100px; ">
+        
+	<column style="margin-right:100px;">
+		<img src="home.png" class="img11"onclick="home();" style="height: 100px; width: 100px; ">
+	</column>
+	<column style="margin-right:100px;">
+		<img src="audi .png" class="img11"onclick="audi();" style="height: 100px; width: 100px;">
+	</column>
+	<column style="margin-right:100px;">
+		<img src="quiz.png" class="img11"onclick="quiz();"style="height: 100px; width: 100px;">
+	</column>
+	<column style="margin-right:100px;">
+		<img src="abstract.png"class="img11" onclick="abstract();" style="height: 100px; width: 100px;">
+	</column>
+	<column style="margin-right:100px;">
+		<img src="agenda.png"class="img11" onclick="agenda();" style="height: 100px; width: 100px;">
+	</column>
+	
+	<column style="margin-right:100px;">
+		<img src="logout.png" class="img11"onclick="logout();" style="height: 100px; width: 100px;">
+	</column>
+</section>
+
+
+<script src="booth.js"></script>
+</body>
+</html>
